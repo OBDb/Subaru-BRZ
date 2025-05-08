@@ -1,0 +1,34 @@
+command_id: 7E0.0110
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E804411000D1
+  expected_values:
+    MAF: 2.09
+- response: 7E8044110012B
+  expected_values:
+    MAF: 2.99
+- response: 7E804411001B0
+  expected_values:
+    MAF: 4.32
+- response: 7E804411001E4
+  expected_values:
+    MAF: 4.84
+- response: 7E804411002B3
+  expected_values:
+    MAF: 6.91
+- response: 7E8044110035E
+  expected_values:
+    MAF: 8.62
+- response: 7E804411003E7
+  expected_values:
+    MAF: 9.99
+- response: '7E80441100434'
+  expected_values:
+    MAF: 10.76
+- response: '7E80441100602'
+  expected_values:
+    MAF: 15.38
+- response: 7E8044110077F
+  expected_values:
+    MAF: 19.19
