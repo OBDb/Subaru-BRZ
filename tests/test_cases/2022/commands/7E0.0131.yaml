@@ -3,12 +3,26 @@ test_cases:
 - response: '7E80441313900'
   expected_values:
     CLR_DIST: 14592
-- response: 7E804413139CC
+- response: 7E804413139FF
   expected_values:
-    CLR_DIST: 14796
-- response: 7E80441313B1C
+    CLR_DIST: 14847
+- response: 7E80441313B1A
   expected_values:
-    CLR_DIST: 15132
+    CLR_DIST: 15130
+- response: |-
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313B55
+  expected_values:
+    CLR_DIST: 15189
+- response: |-
+    > 7B0.7B8.221026
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313B19
+  expected_values:
+    CLR_DIST: 15129
 - response: |-
     > 7B0.7B8.221027
     NO DATA
@@ -23,9 +37,19 @@ test_cases:
     CLR_DIST: 14764
 - response: |-
     > 7E0.7E8.0131
-    7E80441313A05
+    7E80441313A10
   expected_values:
-    CLR_DIST: 14853
+    CLR_DIST: 14864
+- response: |-
+    > 7E0.7E8.0131
+    7E80441313AAF
+  expected_values:
+    CLR_DIST: 15023
+- response: |-
+    > 7E0.7E8.0131
+    7E80441313B41
+  expected_values:
+    CLR_DIST: 15169
 - response: |-
     > 7E0.7E8.22002F
     NO DATA
@@ -35,6 +59,22 @@ test_cases:
     7E80441313902
   expected_values:
     CLR_DIST: 14594
+- response: |-
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313900
+  expected_values:
+    CLR_DIST: 14592
+- response: |-
+    > DA1D.01D.222201
+    CAN ERROR
+    > DA10.010.222660
+    CAN ERROR
+    > 7E0.7E8.0131
+    7E804413139CD
+  expected_values:
+    CLR_DIST: 14797
 - response: |-
     NO DATA
     > 753.75B.221028
@@ -51,13 +91,95 @@ test_cases:
     CLR_DIST: 14933
 - response: |-
     NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131396E
+  expected_values:
+    CLR_DIST: 14702
+- response: |-
+    NO DATA
+    > 7B0.7B8.221026
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313A74
+  expected_values:
+    CLR_DIST: 14964
+- response: |-
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313AA9
+  expected_values:
+    CLR_DIST: 15017
+- response: |-
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7B0.7B8.221026
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313982
+  expected_values:
+    CLR_DIST: 14722
+- response: |-
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313A37
+  expected_values:
+    CLR_DIST: 14903
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313931
+  expected_values:
+    CLR_DIST: 14641
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313AE5
+  expected_values:
+    CLR_DIST: 15077
+- response: |-
+    NO DATA
     > 7E0.7E8.0131
     7E80441313B1B
   expected_values:
     CLR_DIST: 15131
 - response: |-
     NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 753.75B.221028
+    NO DATA
     > 7E0.7E8.0131
-    7E80441313B70
+    7E80441313B2D
   expected_values:
-    CLR_DIST: 15216
+    CLR_DIST: 15149
+- response: |-
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313ACC
+  expected_values:
+    CLR_DIST: 15052
+- response: |-
+    NO DATA
+    > DA11.011.222666
+    CAN ERROR
+    > 7B0.7B8.221027
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313A38
+  expected_values:
+    CLR_DIST: 14904

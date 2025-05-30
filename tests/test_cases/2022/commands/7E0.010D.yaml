@@ -3,9 +3,9 @@ test_cases:
 - response: 7E803410D00
   expected_values:
     VSS: 0
-- response: 7E803410D7F
+- response: 7E803410D85
   expected_values:
-    VSS: 127
+    VSS: 133
 - response: |-
     > 753.75B.221028
     NO DATA
@@ -20,6 +20,26 @@ test_cases:
   expected_values:
     VSS: 0
 - response: |-
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    > 7B0.7B8.221026
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7B0.7B8.221029
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
     > 7B0.7B8.221026
     NO DATA
     > 7E0.7E8.010D
@@ -27,6 +47,44 @@ test_cases:
   expected_values:
     VSS: 0
 - response: |-
+    > 7B0.7B8.221027
+    NO DATA
+    > 7B0.7B8.221029
+    NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    > 7B0.7B8.221029
+    NO DATA
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    > 7E0.7E8.010D
+    7E803410D10
+  expected_values:
+    VSS: 16
+- response: |-
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7B0.7B8.221026
+    NO DATA
     > 7E0.7E8.010D
     7E803410D00
   expected_values:
@@ -34,7 +92,7 @@ test_cases:
 - response: |-
     > 7E0.7E8.22002F
     NO DATA
-    > 7B0.7B8.221026
+    > 7B0.7B8.221029
     NO DATA
     > 7E0.7E8.010D
     7E803410D00
@@ -50,12 +108,64 @@ test_cases:
     VSS: 0
 - response: |-
     NO DATA
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
     > 7E0.7E8.010D
     7E803410D00
   expected_values:
     VSS: 0
 - response: |-
     NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7B0.7B8.221029
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > 7B0.7B8.221026
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > 7B0.7B8.221029
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7E0.7E8.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > DA60.060.227029
+    CAN ERROR
+    > DA10.010.222611
+    CAN ERROR
     > 7E0.7E8.22002F
     NO DATA
     > 7E0.7E8.010D

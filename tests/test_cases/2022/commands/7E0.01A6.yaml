@@ -3,15 +3,41 @@ test_cases:
 - response: 7E80641A60006173A
   expected_values:
     ODO: 39916.2
-- response: 7E80641A600061DFF
+- response: 7E80641A600061B00
   expected_values:
-    ODO: 40089.5
-- response: 7E80641A600062D00
+    ODO: 40012.8
+- response: 7E80641A600061CFF
   expected_values:
-    ODO: 40473.6
-- response: 7E80641A600063001
+    ODO: 40063.9
+- response: 7E80641A6000631E2
   expected_values:
-    ODO: 40550.5
+    ODO: 40598.6
+- response: |-
+    > 7B0.7B8.221026
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A60006273E
+  expected_values:
+    ODO: 40326.2
+- response: |-
+    > 7B0.7B8.221027
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A600061923
+  expected_values:
+    ODO: 39965.1
+- response: |-
+    > 7B0.7B8.221029
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A600062813
+  expected_values:
+    ODO: 40347.5
+- response: |-
+    > 7E0.7E8.01A6
+    7E80641A60006173A
+  expected_values:
+    ODO: 39916.2
 - response: |-
     > 7E0.7E8.01A6
     7E80641A60006230B
@@ -19,26 +45,97 @@ test_cases:
     ODO: 40218.7
 - response: |-
     > 7E0.7E8.01A6
-    7E80641A60006280E
+    7E80641A6000628A7
   expected_values:
-    ODO: 40347
+    ODO: 40362.3
 - response: |-
     > 7E0.7E8.01A6
-    7E80641A600062C4C
+    7E80641A600062E8F
   expected_values:
-    ODO: 40455.6
+    ODO: 40513.5
+- response: |-
+    > DA11.011.222612
+    CAN ERROR
+    > 7E0.7E8.01A6
+    7E80641A600061F36
+  expected_values:
+    ODO: 40120.6
+- response: |-
+    NO DATA
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A60006235D
+  expected_values:
+    ODO: 40226.9
+- response: |-
+    NO DATA
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A6000627D5
+  expected_values:
+    ODO: 40341.3
+- response: |-
+    NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A6000625BF
+  expected_values:
+    ODO: 40287.9
+- response: |-
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A600061ABB
+  expected_values:
+    ODO: 40005.9
+- response: |-
+    NO DATA
+    > 7B0.7B8.221027
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A60006292B
+  expected_values:
+    ODO: 40375.5
+- response: |-
+    NO DATA
+    > 7B0.7B8.221029
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A600062DAB
+  expected_values:
+    ODO: 40490.7
 - response: |-
     NO DATA
     > 7E0.7E8.01A6
-    7E80641A600062491
+    7E80641A60006173A
   expected_values:
-    ODO: 40257.7
+    ODO: 39916.2
 - response: |-
     NO DATA
     > 7E0.7E8.01A6
-    7E80641A600062F9A
+    7E80641A600062D00
   expected_values:
-    ODO: 40540.2
+    ODO: 40473.6
+- response: |-
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A6000631DE
+  expected_values:
+    ODO: 40598.2
+- response: |-
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7B0.7B8.221025
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A600061C4D
+  expected_values:
+    ODO: 40046.1
 - response: |-
     NO DATA
     > 7E0.7E8.22002F
@@ -49,3 +146,25 @@ test_cases:
     7E80641A600063021
   expected_values:
     ODO: 40553.7
+- response: |-
+    NO DATA
+    > 7E0.7E8.22002F
+    NO DATA
+    > 7B0.7B8.221029
+    NO DATA
+    > 7B0.7B8.221026
+    NO DATA
+    > 753.75B.221028
+    NO DATA
+    > 7E0.7E8.01A6
+    7E80641A600061FB8
+  expected_values:
+    ODO: 40133.6
+- response: |-
+    NO DATA
+    > DA11.011.222612
+    CAN ERROR
+    > 7E0.7E8.01A6
+    7E80641A600062365
+  expected_values:
+    ODO: 40227.7
