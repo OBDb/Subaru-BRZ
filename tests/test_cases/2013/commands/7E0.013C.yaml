@@ -1,32 +1,14 @@
 command_id: 7E0.013C
 test_cases:
-- response: 7E804413C11B2
+- response: 7E804413C0CE5
   expected_values:
-    CATEMP11: 413
+    CATEMP11: 290.1
 - response: 7E804413C13ED
   expected_values:
     CATEMP11: 470.1
-- response: 7E804413C1434
-  expected_values:
-    CATEMP11: 477.2
-- response: 7E804413C1437
-  expected_values:
-    CATEMP11: 477.5
-- response: 7E804413C1468
-  expected_values:
-    CATEMP11: 482.4
-- response: 7E804413C149F
-  expected_values:
-    CATEMP11: 487.9
 - response: 7E804413C1505
   expected_values:
     CATEMP11: 498.1
-- response: 7E804413C1654
-  expected_values:
-    CATEMP11: 531.6
 - response: 7E804413C17CE
   expected_values:
     CATEMP11: 569.4
-- response: 7E804413C17DD
-  expected_values:
-    CATEMP11: 570.9
