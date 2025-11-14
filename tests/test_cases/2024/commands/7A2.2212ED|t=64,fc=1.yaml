@@ -1,0 +1,17 @@
+command_id: 7A2.2212ED|t=64,fc=1
+test_cases:
+- expected_values:
+    SUBARU_MAF_AVG: 2.72
+  response: 7AA056212ED0110
+- expected_values:
+    SUBARU_MAF_AVG: 2.78
+  response: 7AA056212ED0116
+- expected_values:
+    SUBARU_MAF_AVG: 3.26
+  response: 7AA056212ED0146
+- expected_values:
+    SUBARU_MAF_AVG: 3.66
+  response: 7AA056212ED016E
+- expected_values:
+    SUBARU_MAF_AVG: 3.84
+  response: 7AA056212ED0180
