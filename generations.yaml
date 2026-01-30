@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Subaru_BRZ"
+
 generations:
   - name: "First Generation (ZC6)"
     start_year: 2012
