@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     SUBARU_REMAINING_BAT_CAPACITY: 99.3
   response: 7AA0562132403E1
+- expected_values:
+    SUBARU_REMAINING_BAT_CAPACITY: 100
+  response: 7AA0562132403E8

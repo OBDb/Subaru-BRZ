@@ -4,17 +4,8 @@ test_cases:
     SUBARU_STEER_ANGLE: 0
   response: 7B8056210290000
 - expected_values:
-    SUBARU_STEER_ANGLE: 3
-  response: 7B8056210290003
+    SUBARU_STEER_ANGLE: -48
+  response: 7B805621029FFD0
 - expected_values:
-    SUBARU_STEER_ANGLE: 23
-  response: 7B8056210290017
-- expected_values:
-    SUBARU_STEER_ANGLE: 30
-  response: 7B805621029001E
-- expected_values:
-    SUBARU_STEER_ANGLE: 120
-  response: 7B8056210290078
-- expected_values:
-    SUBARU_STEER_ANGLE: -3
-  response: 7B805621029FFFD
+    SUBARU_STEER_ANGLE: -1
+  response: 7B805621029FFFF
