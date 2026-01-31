@@ -12,3 +12,21 @@ test_cases:
 - expected_values:
     SUBARU_ESTIMATED_BAT_T: 31.5
   response: 7AA05621323008F
+- expected_values:
+    SUBARU_ESTIMATED_BAT_T: 36
+  response: 7AA056213230098
+- expected_values:
+    SUBARU_ESTIMATED_BAT_T: 36.5
+  response: 7AA056213230099
+- expected_values:
+    SUBARU_ESTIMATED_BAT_T: 37
+  response: 7AA05621323009A
+- expected_values:
+    SUBARU_ESTIMATED_BAT_T: 37.5
+  response: 7AA05621323009B
+- expected_values:
+    SUBARU_ESTIMATED_BAT_T: 41
+  response: 7AA0562132300A2
+- expected_values:
+    SUBARU_ESTIMATED_BAT_T: 41.5
+  response: 7AA0562132300A3
