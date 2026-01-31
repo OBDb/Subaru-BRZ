@@ -4,5 +4,5 @@ test_cases:
     CLR_DIST: 5569
   response: 7E804413115C1
 - expected_values:
-    CLR_DIST: 5582
-  response: 7E804413115CE
+    CLR_DIST: 5622
+  response: 7E804413115F6
