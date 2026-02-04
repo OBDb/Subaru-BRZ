@@ -1,9 +1,9 @@
 command_id: 7A2.7AA.2212ED
 test_cases:
 - expected_values:
-    SUBARU_MAF_AVG: 2.4
-    SUBARU_MASS_AIR_FLOW_AVERAGE: 2.4
-  response: 7AA056212ED00F0
+    SUBARU_MAF_AVG: 2.36
+    SUBARU_MASS_AIR_FLOW_AVERAGE: 2.36
+  response: 7AA056212ED00EC
 - expected_values:
     SUBARU_MAF_AVG: 2.55
     SUBARU_MASS_AIR_FLOW_AVERAGE: 2.55
