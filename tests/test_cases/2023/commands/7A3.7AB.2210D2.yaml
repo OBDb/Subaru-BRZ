@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     SUBARU_CVT_T: 32
   response: 7AB046210D252
+- expected_values:
+    SUBARU_CVT_T: 34
+  response: 7AB046210D254
+- expected_values:
+    SUBARU_CVT_T: 35
+  response: 7AB046210D255
+- expected_values:
+    SUBARU_CVT_T: 36
+  response: 7AB046210D256
+- expected_values:
+    SUBARU_CVT_T: 38
+  response: 7AB046210D258
+- expected_values:
+    SUBARU_CVT_T: 39
+  response: 7AB046210D259
+- expected_values:
+    SUBARU_CVT_T: 41
+  response: 7AB046210D25B
+- expected_values:
+    SUBARU_CVT_T: 42
+  response: 7AB046210D25C
