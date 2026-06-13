@@ -1,6 +1,11 @@
 command_id: 7A2.7AA.2210E5
 test_cases:
 - expected_values:
+    SUBARU_ODO_7A2_10E5: 11644
+  response: |-
+    2210E5
+    7AA056210E516BE
+- expected_values:
     SUBARU_ODO_7A2_10E5: 11202
   response: 7AA056210E515E1
 - expected_values:
