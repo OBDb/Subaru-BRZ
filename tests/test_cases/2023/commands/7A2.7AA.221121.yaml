@@ -1,6 +1,11 @@
 command_id: 7A2.7AA.221121
 test_cases:
 - expected_values:
+    SUBARU_TARGET_ENGINE_SPEED: 870
+  response: |-
+    221121
+    7AA056211210D98
+- expected_values:
     SUBARU_TARGET_ENGINE_SPEED: 650
   response: 7AA056211210A28
 - expected_values:
