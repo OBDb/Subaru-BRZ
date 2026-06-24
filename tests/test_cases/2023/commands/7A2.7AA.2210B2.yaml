@@ -6,8 +6,8 @@ test_cases:
     2210B2
     7AA046210B246
 - expected_values:
-    SUBARU_ALTERNATOR_DUTY: 22
-  response: 7AA046210B216
+    SUBARU_ALTERNATOR_DUTY: 18
+  response: 7AA046210B212
 - expected_values:
     SUBARU_ALTERNATOR_DUTY: 79
   response: 7AA046210B24F
