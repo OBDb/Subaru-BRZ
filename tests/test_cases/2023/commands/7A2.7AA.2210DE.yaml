@@ -6,8 +6,8 @@ test_cases:
     2210DE
     7AA046210DE78
 - expected_values:
-    SUBARU_THROTTLE_MOTOR_DUTY: -36.496
-  response: 7AA046210DE51
+    SUBARU_THROTTLE_MOTOR_DUTY: -52.176
+  response: 7AA046210DE3D
 - expected_values:
     SUBARU_THROTTLE_MOTOR_DUTY: 30.144
   response: 7AA046210DEA6
