@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2210E7
 test_cases:
 - expected_values:
-    SUBARU_EOT_V2: 42
-  response: 7E8046210E752
+    SUBARU_EOT_V2: 39
+  response: 7E8046210E74F
 - expected_values:
     SUBARU_EOT_V2: 93
   response: 7E8046210E785
