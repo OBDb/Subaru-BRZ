@@ -1,13 +1,13 @@
 command_id: 7A2.7AA.22110B
 test_cases:
 - expected_values:
-    SUBARU_ROUGHNESS_MONITOR_1: 0
+    BRZ_ROUGHNESS_MONITOR_1: 0
   response: |-
     22110B
     7AA0462110B00
 - expected_values:
-    SUBARU_ROUGHNESS_MONITOR_1: 0
+    BRZ_ROUGHNESS_MONITOR_1: 0
   response: 7AA0462110B00
 - expected_values:
-    SUBARU_ROUGHNESS_MONITOR_1: 1
+    BRZ_ROUGHNESS_MONITOR_1: 1
   response: 7AA0462110B01

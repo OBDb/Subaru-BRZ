@@ -1,13 +1,13 @@
 command_id: 7A2.7AA.2210B7
 test_cases:
 - expected_values:
-    SUBARU_OCV_DUTY_LEFT: 54.90196
+    BRZ_OCV_DUTY_LEFT: 54.90196
   response: |-
     2210B7
     7AA046210B78C
 - expected_values:
-    SUBARU_OCV_DUTY_LEFT: 0
+    BRZ_OCV_DUTY_LEFT: 0
   response: 7AA046210B700
 - expected_values:
-    SUBARU_OCV_DUTY_LEFT: 62.7451
+    BRZ_OCV_DUTY_LEFT: 62.7451
   response: 7AA046210B7A0
