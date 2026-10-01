@@ -1,13 +1,13 @@
 command_id: 7E0.7E8.2210E5|t=64,fc=1
 test_cases:
 - expected_values:
-    SUBARU_ODO: 39832
+    BRZ_ODO: 39832
   response: 7E8056210E54DCC
 - expected_values:
-    SUBARU_ODO: 52302
+    BRZ_ODO: 52302
   response: 7E8056210E56627
 - expected_values:
-    SUBARU_ODO: 52302
+    BRZ_ODO: 52302
   response: |-
     > 7E0.7E8.2210E5|t=64,fc=1
     7E8056210E56627

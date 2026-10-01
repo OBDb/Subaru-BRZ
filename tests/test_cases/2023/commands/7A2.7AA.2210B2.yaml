@@ -1,13 +1,13 @@
 command_id: 7A2.7AA.2210B2
 test_cases:
 - expected_values:
-    SUBARU_ALTERNATOR_DUTY: 70
+    BRZ_ALTERNATOR_DUTY: 70
   response: |-
     2210B2
     7AA046210B246
 - expected_values:
-    SUBARU_ALTERNATOR_DUTY: 18
+    BRZ_ALTERNATOR_DUTY: 18
   response: 7AA046210B212
 - expected_values:
-    SUBARU_ALTERNATOR_DUTY: 79
+    BRZ_ALTERNATOR_DUTY: 79
   response: 7AA046210B24F
