@@ -1,8 +1,8 @@
 command_id: 7A3.7AB.2210D2
 test_cases:
 - expected_values:
-    SUBARU_CVT_T: 28
+    BRZ_TCM_ATF_T: 28
   response: 7AB046210D24E
 - expected_values:
-    SUBARU_CVT_T: 45
+    BRZ_TCM_ATF_T: 45
   response: 7AB046210D25F
