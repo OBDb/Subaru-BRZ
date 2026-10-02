@@ -4,6 +4,9 @@ test_cases:
     BRZ_OCV_DUTY_LEFT: 0
   response: 7AA046210B700
 - expected_values:
+    BRZ_OCV_DUTY_LEFT: 54.5098
+  response: 7AA046210B78B
+- expected_values:
     BRZ_OCV_DUTY_LEFT: 56.86275
   response: 7AA046210B791
 - expected_values:

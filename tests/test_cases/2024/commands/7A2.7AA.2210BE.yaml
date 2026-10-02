@@ -1,6 +1,9 @@
 command_id: 7A2.7AA.2210BE
 test_cases:
 - expected_values:
+    BRZ_A_F_SENSOR_1: 0.97549
+  response: 7AA046210BE7D
+- expected_values:
     BRZ_A_F_SENSOR_1: 0.9911
   response: 7AA046210BE7F
 - expected_values:

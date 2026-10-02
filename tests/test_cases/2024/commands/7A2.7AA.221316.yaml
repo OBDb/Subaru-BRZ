@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     BRZ_MONITOR_3: 711.75
   response: 7AA056213160B1F
+- expected_values:
+    BRZ_MONITOR_3: 1963.75
+  response: 7AA056213161EAF

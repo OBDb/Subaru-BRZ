@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BRZ_CPC_VALVE_DUTY_CYCLE: 0
   response: 7AA046210AE00
+- expected_values:
+    BRZ_CPC_VALVE_DUTY_CYCLE: 75.68627
+  response: 7AA046210AEC1
