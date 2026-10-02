@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     BRZ_ACC_POS: 0
   response: 7AA046210A600
+- expected_values:
+    BRZ_ACC_POS: 9.80392
+  response: 7AA046210A619
+- expected_values:
+    BRZ_ACC_POS: 10.98039
+  response: 7AA046210A61C

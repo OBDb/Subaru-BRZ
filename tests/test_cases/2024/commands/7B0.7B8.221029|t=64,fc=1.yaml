@@ -4,5 +4,8 @@ test_cases:
     BRZ_STEER_ANGLE_7B0: 0
   response: 7B8056210290000
 - expected_values:
+    BRZ_STEER_ANGLE_7B0: 1
+  response: 7B8056210290001
+- expected_values:
     BRZ_STEER_ANGLE_7B0: 2
   response: 7B8056210290002

@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     BRZ_REMAINING_BAT_CAPACITY: 82.7
   response: 7AA05621324033B
+- expected_values:
+    BRZ_REMAINING_BAT_CAPACITY: 100
+  response: 7AA0562132403E8

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BRZ_EXHAUST_OCV_DUTY_RIGHT: 46.27451
   response: 7AA046210EE76
+- expected_values:
+    BRZ_EXHAUST_OCV_DUTY_RIGHT: 55.29412
+  response: 7AA046210EE8D

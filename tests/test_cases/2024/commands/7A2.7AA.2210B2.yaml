@@ -4,5 +4,8 @@ test_cases:
     BRZ_ALTERNATOR_DUTY: 69
   response: 7AA046210B245
 - expected_values:
+    BRZ_ALTERNATOR_DUTY: 70
+  response: 7AA046210B246
+- expected_values:
     BRZ_ALTERNATOR_DUTY: 72
   response: 7AA046210B248
