@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BRZ_OCV_DUTY_RIGHT: 56.47059
   response: 7AA046210B690
+- expected_values:
+    BRZ_OCV_DUTY_RIGHT: 57.2549
+  response: 7AA046210B692
