@@ -468,7 +468,7 @@
   "signals": [
     {"id": "BRZ_TRANS_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Transmission lock-up"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "12CE"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12CE"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "BRZ_AMBIENT_T_SENS_SIG", "path": "Engine", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature for sensor signal"}
   ]},
