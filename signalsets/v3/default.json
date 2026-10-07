@@ -380,7 +380,7 @@
   "signals": [
     {"id": "BRZ_ESTIMATED_DIST_OIL_CHANGE", "path": "Trips", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "kilometers" }, "name": "Estimated distance to oil change"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BE"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "BRZ_INT_VVT_CLEANING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake VVT cleaning self-recovery counter"}
   ]},
