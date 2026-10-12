@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2210E7
+command_id: 7E0.7E8.2210E7|f=-2021
 test_cases:
 - expected_values:
     BRZ_EOT_V2: 32
