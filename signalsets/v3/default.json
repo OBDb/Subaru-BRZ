@@ -1,4 +1,5 @@
 { "ecu": [
+    { "hdr": "7A2", "type": "engine" },
     { "hdr": "7E0", "type": "engine" }
   ],
   "commands": [

@@ -103,6 +103,7 @@ unsupported_commands_by_ecu:
   - 7A2.221149
   - 7A2.221155
   - 7A2.22116A
+  - 7A2.7AA.220005:BRZ_ECT
   - 7A2.7AA.220023:BRZ_FRP
   - 7A2.7AA.22003C
   - 7A2.7AA.22003E

@@ -6,8 +6,8 @@ test_cases:
     2210B2
     7AA046210B246
 - expected_values:
-    BRZ_ALTERNATOR_DUTY: 18
-  response: 7AA046210B212
+    BRZ_ALTERNATOR_DUTY: 17
+  response: 7AA046210B211
 - expected_values:
     BRZ_ALTERNATOR_DUTY: 79
   response: 7AA046210B24F
