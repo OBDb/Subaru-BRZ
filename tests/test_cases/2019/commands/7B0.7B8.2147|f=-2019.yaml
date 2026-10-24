@@ -1,0 +1,44 @@
+command_id: 7B0.7B8.2147|f=-2019
+test_cases:
+- expected_values:
+    BRZ_LAT_G: 0
+    BRZ_LNG_G: 0
+    BRZ_STEER_ANGLE: -131
+    BRZ_YAW_RATE: 0
+  response: 7B80761470000807AE2
+- expected_values:
+    BRZ_LAT_G: 0
+    BRZ_LNG_G: 0.14
+    BRZ_STEER_ANGLE: 0
+    BRZ_YAW_RATE: 0
+  response: 7B80761470007808000
+- expected_values:
+    BRZ_LAT_G: 0
+    BRZ_LNG_G: -0.02
+    BRZ_STEER_ANGLE: -6.4
+    BRZ_YAW_RATE: 0
+  response: 7B807614700FF807FC0
+- expected_values:
+    BRZ_LAT_G: 0.04
+    BRZ_LNG_G: 0
+    BRZ_STEER_ANGLE: 149.9
+    BRZ_YAW_RATE: 0
+  response: 7B807614702008085DB
+- expected_values:
+    BRZ_LAT_G: 0.04
+    BRZ_LNG_G: 0.1
+    BRZ_STEER_ANGLE: 138.2
+    BRZ_YAW_RATE: 16
+  response: 7B80761470205908566
+- expected_values:
+    BRZ_LAT_G: 0.06
+    BRZ_LNG_G: 0
+    BRZ_STEER_ANGLE: -0.2
+    BRZ_YAW_RATE: 0
+  response: 7B80761470300807FFE
+- expected_values:
+    BRZ_LAT_G: -0.02
+    BRZ_LNG_G: 0.02
+    BRZ_STEER_ANGLE: -40
+    BRZ_YAW_RATE: -5
+  response: 7B8076147FF017B7E70

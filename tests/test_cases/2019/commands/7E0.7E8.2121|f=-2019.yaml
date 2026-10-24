@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2121|f=-2019
+test_cases:
+- expected_values:
+    BRZ_CC_SPD: 0
+  response: |-
+    7E8100E612101008000
+    7E82100C00000000000
+    7E82200000000000000
+- expected_values:
+    BRZ_CC_SPD: 0
+  response: |-
+    7E8100E612101008000
+    7E82100C00400000000
+    7E82200000000000000
+- expected_values:
+    BRZ_CC_SPD: 0
+  response: |-
+    7E8100E612108008000
+    7E82100000000000000
+    7E82200000000000000
+- expected_values:
+    BRZ_CC_SPD: 0
+  response: |-
+    7E8100E612136008000
+    7E82100000000000000
+    7E82200000000000000

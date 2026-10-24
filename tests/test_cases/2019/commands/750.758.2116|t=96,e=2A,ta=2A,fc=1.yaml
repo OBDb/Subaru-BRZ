@@ -1,0 +1,70 @@
+command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    BRZ_TT_FL: null
+    BRZ_TT_FR: null
+    BRZ_TT_RL: null
+    BRZ_TT_RR: null
+    BRZ_TT_SPARE: null
+  response: |-
+    7582A10076116000000
+    7582A21000000000000
+- expected_values:
+    BRZ_TT_FL: 31
+  response: |-
+    7582A10076116000047
+    7582A21000000000000
+- expected_values:
+    BRZ_TT_FL: 34
+    BRZ_TT_RR: 20
+  response: |-
+    7582A1007611600004A
+    7582A213C0000000000
+- expected_values:
+    BRZ_TT_FL: 34
+    BRZ_TT_FR: 32
+    BRZ_TT_RL: 20
+    BRZ_TT_RR: 20
+  response: |-
+    7582A100761163C484A
+    7582A213C0000000000
+- expected_values:
+    BRZ_TT_FL: 34
+    BRZ_TT_FR: 32
+    BRZ_TT_RL: 21
+    BRZ_TT_RR: 20
+  response: |-
+    7582A100761163D484A
+    7582A213C0000000000
+- expected_values:
+    BRZ_TT_FL: 34
+    BRZ_TT_FR: 33
+    BRZ_TT_RL: 21
+    BRZ_TT_RR: 21
+  response: |-
+    7582A100761163D494A
+    7582A213D0000000000
+- expected_values:
+    BRZ_TT_FL: 34
+    BRZ_TT_FR: 33
+    BRZ_TT_RL: 22
+    BRZ_TT_RR: 21
+  response: |-
+    7582A100761163E494A
+    7582A213D0000000000
+- expected_values:
+    BRZ_TT_FL: 34
+    BRZ_TT_FR: 34
+    BRZ_TT_RL: 22
+    BRZ_TT_RR: 22
+  response: |-
+    7582A100761163E4A4A
+    7582A213E0000000000
+- expected_values:
+    BRZ_TT_FL: 35
+    BRZ_TT_FR: 34
+    BRZ_TT_RL: 23
+    BRZ_TT_RR: 22
+  response: |-
+    7582A100761163F4A4B
+    7582A213E0000000000
