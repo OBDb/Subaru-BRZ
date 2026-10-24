@@ -23,7 +23,7 @@
     {"id": "BRZ_TP_RR_750", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.89, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "BRZ_TP_SPARE",  "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.89, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "16"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "16"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "BRZ_TT_RL",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Rear left tire temperature"},
     {"id": "BRZ_TT_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
@@ -293,14 +293,14 @@
   "signals": [
     {"id": "BRZ_TCM_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "03"}, "freq": 0.25,
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "BRZ_TIRE_RL_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "BRZ_TIRE_FR_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "BRZ_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "BRZ_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2019 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "BRZ_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
     {"id": "BRZ_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
@@ -327,19 +327,19 @@
   "signals": [
     {"id": "BRZ_STEER_ANGLE_7B0", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32767, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"21": "29"}, "freq": 1, "filter": { "to": 2019 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "BRZ_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level, volume", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "01"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "BRZ_EOT", "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "21"}, "freq": 5, "filter": { "to": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 5, "filter": { "to": 2019 }, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "BRZ_CC_SPD", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "51"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "51"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "BRZ_PREV_TRIP_DST", "path": "Trips",  "fmt": {"bix": 40, "len": 16, "max": 655.35,             "div": 100,             "unit": "kilometers" }, "name": "Previous trip distance"},
     {"id": "BRZ_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
@@ -389,11 +389,11 @@
   "signals": [
     {"id": "BRZ_EXH_VVT_CLEANING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust VVT cleaning self-recovery counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "122F"}, "freq": 0.25, "filter": { "to": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122F"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "BRZ_CLUTCH_PRESSED", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "Clutch pedal position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1233"}, "freq": 0.25, "filter": { "to": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1233"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "BRZ_BRAKE_PRESSED", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "Brake pedal position"}
   ]},

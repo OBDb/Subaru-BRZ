@@ -1,0 +1,44 @@
+command_id: 7B0.7B8.2103
+test_cases:
+- expected_values:
+    BRZ_TIRE_FL_SPD: 0
+    BRZ_TIRE_FR_SPD: 0
+    BRZ_TIRE_RL_SPD: 0
+    BRZ_TIRE_RR_SPD: 0
+  response: 7B806610300000000
+- expected_values:
+    BRZ_TIRE_FL_SPD: 7.68
+    BRZ_TIRE_FR_SPD: 7.68
+    BRZ_TIRE_RL_SPD: 7.68
+    BRZ_TIRE_RR_SPD: 7.68
+  response: 7B806610306060606
+- expected_values:
+    BRZ_TIRE_FL_SPD: 15.36
+    BRZ_TIRE_FR_SPD: 14.08
+    BRZ_TIRE_RL_SPD: 15.36
+    BRZ_TIRE_RR_SPD: 14.08
+  response: 7B80661030C0B0C0B
+- expected_values:
+    BRZ_TIRE_FL_SPD: 16.64
+    BRZ_TIRE_FR_SPD: 17.92
+    BRZ_TIRE_RL_SPD: 16.64
+    BRZ_TIRE_RR_SPD: 17.92
+  response: 7B80661030D0E0D0E
+- expected_values:
+    BRZ_TIRE_FL_SPD: 23.04
+    BRZ_TIRE_FR_SPD: 23.04
+    BRZ_TIRE_RL_SPD: 23.04
+    BRZ_TIRE_RR_SPD: 23.04
+  response: 7B806610312121212
+- expected_values:
+    BRZ_TIRE_FL_SPD: 38.4
+    BRZ_TIRE_FR_SPD: 38.4
+    BRZ_TIRE_RL_SPD: 38.4
+    BRZ_TIRE_RR_SPD: 38.4
+  response: 7B80661031E1E1E1E
+- expected_values:
+    BRZ_TIRE_FL_SPD: 46.08
+    BRZ_TIRE_FR_SPD: 46.08
+    BRZ_TIRE_RL_SPD: 46.08
+    BRZ_TIRE_RR_SPD: 46.08
+  response: 7B806610324242424
