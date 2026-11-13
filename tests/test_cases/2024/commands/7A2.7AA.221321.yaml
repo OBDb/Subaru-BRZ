@@ -7,6 +7,9 @@ test_cases:
     BRZ_BAT_TERMINAL_VOLTAGE: 14.298
   response: 7AA0562132137DA
 - expected_values:
+    BRZ_BAT_TERMINAL_VOLTAGE: 14.326
+  response: 7AA0562132137F6
+- expected_values:
     BRZ_BAT_TERMINAL_VOLTAGE: 14.364
   response: 7AA05621321381C
 - expected_values:
