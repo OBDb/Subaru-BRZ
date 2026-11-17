@@ -307,23 +307,23 @@
     {"id": "BRZ_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate"},
     {"id": "BRZ_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "filter": { "to": 2011, "from": 2021 }, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "BRZ_FR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1025"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1025"}, "freq": 0.25, "filter": { "to": 2011, "from": 2021 }, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "BRZ_FL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1026"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1026"}, "freq": 0.25, "filter": { "to": 2011, "from": 2021 }, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "BRZ_RR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1027"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1027"}, "freq": 0.25, "filter": { "to": 2011, "from": 2021 }, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "BRZ_RL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "filter": { "to": 2011, "from": 2021 }, "dbgfilter": { "to": 2022, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "BRZ_STEER_ANGLE_7B0", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32767, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -357,7 +357,7 @@
   "signals": [
     {"id": "BRZ_TRIP_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Trip counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10A3"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10A3"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "BRZ_FUEL_INJ_1_WIDTH", "path": "Fuel", "fmt": { "len": 8, "max": 65.28, "mul": 32, "div": 125, "unit": "milliseconds" }, "name": "Fuel injection 1 pulse width"}
   ]},
