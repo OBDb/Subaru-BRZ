@@ -1,4 +1,4 @@
-command_id: 7B0.7B8.221025|t=64,fc=1
+command_id: 7B0.7B8.221025|t=64,fc=1,f=2021-;-2011
 test_cases:
 - expected_values:
     BRZ_FL_VSS: 0
