@@ -4,29 +4,8 @@ test_cases:
     BRZ_BAT_TERMINAL_VOLTAGE: 14.278
   response: 7AA0562132137C6
 - expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.298
-  response: 7AA0562132137DA
-- expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.313
-  response: 7AA0562132137E9
-- expected_values:
     BRZ_BAT_TERMINAL_VOLTAGE: 14.326
   response: 7AA0562132137F6
 - expected_values:
     BRZ_BAT_TERMINAL_VOLTAGE: 14.364
   response: 7AA05621321381C
-- expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.368
-  response: 7AA056213213820
-- expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.374
-  response: 7AA056213213826
-- expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.376
-  response: 7AA056213213828
-- expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.38
-  response: 7AA05621321382C
-- expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.423
-  response: 7AA056213213857
