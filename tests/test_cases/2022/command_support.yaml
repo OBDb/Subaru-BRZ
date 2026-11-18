@@ -113,6 +113,8 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "746":
   - 746.221032:BRZ_STEER_ANGLE_746
+  "750":
+  - 750.2130|e=2A,fc=1:BRZ_TP_FL_750,BRZ_TP_FR_750,BRZ_TP_RL_750,BRZ_TP_RR_750,BRZ_TP_SPARE
   "753":
   - 753.75B.221028|t=64,fc=1:BRZ_TID1,BRZ_TID2,BRZ_TID3,BRZ_TID4
   "7A2":
