@@ -1,11 +1,11 @@
 command_id: 7A2.7AA.221321
 test_cases:
 - expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.278
-  response: 7AA0562132137C6
+    BRZ_BAT_TERMINAL_VOLTAGE: 13.927
+  response: 7AA056213213667
 - expected_values:
-    BRZ_BAT_TERMINAL_VOLTAGE: 14.326
-  response: 7AA0562132137F6
+    BRZ_BAT_TERMINAL_VOLTAGE: 14.329
+  response: 7AA0562132137F9
 - expected_values:
     BRZ_BAT_TERMINAL_VOLTAGE: 14.364
   response: 7AA05621321381C

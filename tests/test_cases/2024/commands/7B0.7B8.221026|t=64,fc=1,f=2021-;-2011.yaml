@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     BRZ_RR_VSS: 0
   response: 7B8056210260000
+- expected_values:
+    BRZ_RR_VSS: 29.86875
+  response: 7B8056210260213
+- expected_values:
+    BRZ_RR_VSS: 47.25
+  response: 7B8056210260348
+- expected_values:
+    BRZ_RR_VSS: 50.175
+  response: 7B805621026037C
