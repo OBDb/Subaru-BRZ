@@ -1,6 +1,14 @@
 command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    BRZ_TT_FL: 21
+    BRZ_TT_FR: 24
+    BRZ_TT_RL: 22
+    BRZ_TT_RR: 21
+  response: |-
+    7582A100761163E403D
+    7582A213D0000000000
+- expected_values:
     BRZ_TT_FL: 31
     BRZ_TT_FR: 34
     BRZ_TT_RL: 33
