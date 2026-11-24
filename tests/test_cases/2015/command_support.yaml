@@ -62,6 +62,10 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
 unsupported_commands_by_ecu:
+  "745":
+  - 745.74D.22161C
+  - 745.74D.221666
+  - 745.74D.2216A1
   "746":
   - 746.221032:BRZ_STEER_ANGLE_746
   "753":
