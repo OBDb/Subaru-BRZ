@@ -1,0 +1,32 @@
+command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    BRZ_TT_FL: 15
+    BRZ_TT_FR: 15
+    BRZ_TT_RL: 17
+    BRZ_TT_RR: 14
+  response: |-
+    7582A10076116393737
+    7582A21360000000000
+- expected_values:
+    BRZ_TT_FL: 15
+    BRZ_TT_RL: 18
+  response: |-
+    7582A100761163A0037
+    7582A21000000000000
+- expected_values:
+    BRZ_TT_FL: 15
+    BRZ_TT_FR: 15
+    BRZ_TT_RL: 18
+    BRZ_TT_RR: 14
+  response: |-
+    7582A100761163A3737
+    7582A21360000000000
+- expected_values:
+    BRZ_TT_FL: 15
+    BRZ_TT_FR: 16
+    BRZ_TT_RL: 18
+    BRZ_TT_RR: 15
+  response: |-
+    7582A100761163A3837
+    7582A21370000000000
