@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.2103
+test_cases:
+- expected_values:
+    BRZ_TIRE_FL_SPD: 0
+    BRZ_TIRE_FR_SPD: 0
+    BRZ_TIRE_RL_SPD: 0
+    BRZ_TIRE_RR_SPD: 0
+  response: 7B806610300000000
+- expected_values:
+    BRZ_TIRE_FL_SPD: 7.68
+    BRZ_TIRE_FR_SPD: 7.68
+    BRZ_TIRE_RL_SPD: 7.68
+    BRZ_TIRE_RR_SPD: 7.68
+  response: 7B806610306060606
+- expected_values:
+    BRZ_TIRE_FL_SPD: 21.76
+    BRZ_TIRE_FR_SPD: 20.48
+    BRZ_TIRE_RL_SPD: 21.76
+    BRZ_TIRE_RR_SPD: 20.48
+  response: 7B806610311101110
